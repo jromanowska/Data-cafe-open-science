@@ -109,7 +109,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#exercise" id="toc-exercise" class="nav-link active" data-scroll-target="#exercise"><span class="toc-section-number">1</span>  Exercise</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction"><span class="toc-section-number">1</span>  Introduction</a></li>
   <li><a href="#sec-what-is-text-file" id="toc-sec-what-is-text-file" class="nav-link" data-scroll-target="#sec-what-is-text-file"><span class="toc-section-number">2</span>  What is a text file?</a></li>
   <li><a href="#create-a-table" id="toc-create-a-table" class="nav-link" data-scroll-target="#create-a-table"><span class="toc-section-number">3</span>  Create a table</a>
   <ul class="collapse">
@@ -146,10 +146,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 </header>
 
-<section id="exercise" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="exercise"><span class="header-section-number">1</span> Exercise</h2>
+<section id="introduction" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="introduction"><span class="header-section-number">1</span> Introduction</h2>
+<p><svg aria-hidden="true" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M192 0c-41.8 0-77.4 26.7-90.5 64H64C28.7 64 0 92.7 0 128V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64H282.5C269.4 26.7 233.8 0 192 0zm0 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM105.8 229.3c7.9-22.3 29.1-37.3 52.8-37.3h58.3c34.9 0 63.1 28.3 63.1 63.1c0 22.6-12.1 43.5-31.7 54.8L216 328.4c-.2 13-10.9 23.6-24 23.6c-13.3 0-24-10.7-24-24V314.5c0-8.6 4.6-16.5 12.1-20.8l44.3-25.4c4.7-2.7 7.6-7.7 7.6-13.1c0-8.4-6.8-15.1-15.1-15.1H158.6c-3.4 0-6.4 2.1-7.5 5.3l-.4 1.2c-4.4 12.5-18.2 19-30.6 14.6s-19-18.2-14.6-30.6l.4-1.2zM160 416a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"></path></svg> What we’ll learn today?</p>
 <ol type="1">
-<li><p>export to a text-file</p></li>
+<li><p>export data to a text-file</p></li>
 <li><p>create a table in R/STATA</p></li>
 <li><p>describe your data</p></li>
 <li><p>put on GitHub/Dataverse</p></li>
@@ -182,7 +183,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </tr>
 </tbody>
 </table>
-<p>A text file can be opened and read in, e.g., Notepad.</p>
+<p>A text file contains the characters we type <em>explicitly</em>, i.e., it can be opened and read in, e.g., Notepad.</p>
 <blockquote class="blockquote">
 <p><strong>NB:</strong> When exporting a table from Excel to CSV, make sure you did not do any formatting changes (numbers are still numbers) and that you have one table in one sheet.</p>
 </blockquote>
@@ -191,7 +192,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 data-number="3" class="anchored" data-anchor-id="create-a-table"><span class="header-section-number">3</span> Create a table</h2>
 <section id="table-1" class="level3" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="table-1"><span class="header-section-number">3.1</span> Table 1</h3>
-<p>This table you will need to be visually nice, to put in the submitted paper. From the raw data, there are several ways to get to the “Table 1” format, while at the same time keeping the code you used to generate it.</p>
+<p>This table you want to be visually appealing, to put in the submitted paper. From the raw data, there are several ways to get to the “Table 1” format, while at the same time keeping the code you used to generate it.</p>
+<blockquote class="blockquote">
+<p>DISCLAIMER: I don’t know STATA well, so please advise your local STATA expert when you need help there.</p>
+</blockquote>
 <section id="in-stata" class="level4" data-number="3.1.1">
 <h4 data-number="3.1.1" class="anchored" data-anchor-id="in-stata"><span class="header-section-number">3.1.1</span> In STATA</h4>
 <p>The newest, STATA 18, has a built-in command you can use to create a nice “Table 1”. Check <a href="https://www.stata.com/new-in-stata/create-export-descriptive-statistic-tables/">the documentation here</a>.</p>
@@ -219,23 +223,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </details>
 <div class="cell-output-display">
 
-<div id="tuirdaydvm" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#tuirdaydvm table {
+<div id="ukmiqtxlkk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ukmiqtxlkk table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#tuirdaydvm thead, #tuirdaydvm tbody, #tuirdaydvm tfoot, #tuirdaydvm tr, #tuirdaydvm td, #tuirdaydvm th {
+#ukmiqtxlkk thead, #ukmiqtxlkk tbody, #ukmiqtxlkk tfoot, #ukmiqtxlkk tr, #ukmiqtxlkk td, #ukmiqtxlkk th {
   border-style: none;
 }
 
-#tuirdaydvm p {
+#ukmiqtxlkk p {
   margin: 0;
   padding: 0;
 }
 
-#tuirdaydvm .gt_table {
+#ukmiqtxlkk .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -261,12 +265,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-left-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_caption {
+#ukmiqtxlkk .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#tuirdaydvm .gt_title {
+#ukmiqtxlkk .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -278,7 +282,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-bottom-width: 0;
 }
 
-#tuirdaydvm .gt_subtitle {
+#ukmiqtxlkk .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -290,7 +294,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-top-width: 0;
 }
 
-#tuirdaydvm .gt_heading {
+#ukmiqtxlkk .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -302,13 +306,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-right-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_bottom_border {
+#ukmiqtxlkk .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_col_headings {
+#ukmiqtxlkk .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -323,7 +327,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-right-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_col_heading {
+#ukmiqtxlkk .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -343,7 +347,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   overflow-x: hidden;
 }
 
-#tuirdaydvm .gt_column_spanner_outer {
+#ukmiqtxlkk .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -355,15 +359,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   padding-right: 4px;
 }
 
-#tuirdaydvm .gt_column_spanner_outer:first-child {
+#ukmiqtxlkk .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#tuirdaydvm .gt_column_spanner_outer:last-child {
+#ukmiqtxlkk .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#tuirdaydvm .gt_column_spanner {
+#ukmiqtxlkk .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -375,11 +379,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   width: 100%;
 }
 
-#tuirdaydvm .gt_spanner_row {
+#ukmiqtxlkk .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#tuirdaydvm .gt_group_heading {
+#ukmiqtxlkk .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -405,7 +409,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   text-align: left;
 }
 
-#tuirdaydvm .gt_empty_group_heading {
+#ukmiqtxlkk .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -420,15 +424,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   vertical-align: middle;
 }
 
-#tuirdaydvm .gt_from_md > :first-child {
+#ukmiqtxlkk .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#tuirdaydvm .gt_from_md > :last-child {
+#ukmiqtxlkk .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#tuirdaydvm .gt_row {
+#ukmiqtxlkk .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -447,7 +451,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   overflow-x: hidden;
 }
 
-#tuirdaydvm .gt_stub {
+#ukmiqtxlkk .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -460,7 +464,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   padding-right: 5px;
 }
 
-#tuirdaydvm .gt_stub_row_group {
+#ukmiqtxlkk .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -474,15 +478,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   vertical-align: top;
 }
 
-#tuirdaydvm .gt_row_group_first td {
+#ukmiqtxlkk .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#tuirdaydvm .gt_row_group_first th {
+#ukmiqtxlkk .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#tuirdaydvm .gt_summary_row {
+#ukmiqtxlkk .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -492,16 +496,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   padding-right: 5px;
 }
 
-#tuirdaydvm .gt_first_summary_row {
+#ukmiqtxlkk .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_first_summary_row.thick {
+#ukmiqtxlkk .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#tuirdaydvm .gt_last_summary_row {
+#ukmiqtxlkk .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -511,7 +515,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-bottom-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_grand_summary_row {
+#ukmiqtxlkk .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -521,7 +525,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   padding-right: 5px;
 }
 
-#tuirdaydvm .gt_first_grand_summary_row {
+#ukmiqtxlkk .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -531,7 +535,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-top-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_last_grand_summary_row_top {
+#ukmiqtxlkk .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -541,11 +545,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-bottom-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_striped {
+#ukmiqtxlkk .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#tuirdaydvm .gt_table_body {
+#ukmiqtxlkk .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -554,7 +558,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-bottom-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_footnotes {
+#ukmiqtxlkk .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -568,7 +572,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-right-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_footnote {
+#ukmiqtxlkk .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -577,7 +581,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   padding-right: 5px;
 }
 
-#tuirdaydvm .gt_sourcenotes {
+#ukmiqtxlkk .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -591,7 +595,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   border-right-color: #D3D3D3;
 }
 
-#tuirdaydvm .gt_sourcenote {
+#ukmiqtxlkk .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -599,63 +603,63 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   padding-right: 5px;
 }
 
-#tuirdaydvm .gt_left {
+#ukmiqtxlkk .gt_left {
   text-align: left;
 }
 
-#tuirdaydvm .gt_center {
+#ukmiqtxlkk .gt_center {
   text-align: center;
 }
 
-#tuirdaydvm .gt_right {
+#ukmiqtxlkk .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#tuirdaydvm .gt_font_normal {
+#ukmiqtxlkk .gt_font_normal {
   font-weight: normal;
 }
 
-#tuirdaydvm .gt_font_bold {
+#ukmiqtxlkk .gt_font_bold {
   font-weight: bold;
 }
 
-#tuirdaydvm .gt_font_italic {
+#ukmiqtxlkk .gt_font_italic {
   font-style: italic;
 }
 
-#tuirdaydvm .gt_super {
+#ukmiqtxlkk .gt_super {
   font-size: 65%;
 }
 
-#tuirdaydvm .gt_footnote_marks {
+#ukmiqtxlkk .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#tuirdaydvm .gt_asterisk {
+#ukmiqtxlkk .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#tuirdaydvm .gt_indent_1 {
+#ukmiqtxlkk .gt_indent_1 {
   text-indent: 5px;
 }
 
-#tuirdaydvm .gt_indent_2 {
+#ukmiqtxlkk .gt_indent_2 {
   text-indent: 10px;
 }
 
-#tuirdaydvm .gt_indent_3 {
+#ukmiqtxlkk .gt_indent_3 {
   text-indent: 15px;
 }
 
-#tuirdaydvm .gt_indent_4 {
+#ukmiqtxlkk .gt_indent_4 {
   text-indent: 20px;
 }
 
-#tuirdaydvm .gt_indent_5 {
+#ukmiqtxlkk .gt_indent_5 {
   text-indent: 25px;
 }
 </style>

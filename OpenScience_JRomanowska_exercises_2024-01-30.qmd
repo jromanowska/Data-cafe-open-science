@@ -13,11 +13,14 @@ format:
 #| include: false
 library(tidyverse)
 library(gtsummary)
+library(fontawesome)
 ```
 
-## Exercise
+## Introduction
 
-1. export to a text-file
+`r fa("clipboard-question")` What we'll learn today?
+
+1. export data to a text-file
 
 2. create a table in R/STATA
 
@@ -35,7 +38,8 @@ library(gtsummary)
 | `.csv`    | `.xls`/`.xlsx`  |
 | `.tab`    | `.sav`          |
 
-A text file can be opened and read in, e.g., Notepad.
+A text file contains the characters we type _explicitly_, i.e., it can be opened
+and read in, e.g., Notepad.
 
 > **NB:** When exporting a table from Excel to CSV, make sure you did not do
 > any formatting changes (numbers are still numbers) and that you have one
@@ -45,9 +49,12 @@ A text file can be opened and read in, e.g., Notepad.
 
 ### Table 1
 
-This table you will need to be visually nice, to put in the submitted paper.
+This table you want to be visually appealing, to put in the submitted paper.
 From the raw data, there are several ways to get to the "Table 1" format,
 while at the same time keeping the code you used to generate it.
+
+> DISCLAIMER: I don't know STATA well, so please advise your local STATA
+> expert when you need help there.
 
 #### In STATA
 
@@ -187,3 +194,4 @@ been done.
 
 [Dataverse](https://dataverse.no/dataverse/uib) is a database where you can
 store and share data/results and get a citable DOI.
+

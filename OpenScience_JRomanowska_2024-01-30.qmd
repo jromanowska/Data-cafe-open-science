@@ -16,16 +16,25 @@ library(fontawesome)
 ## Discussion {.center}
 
 ::: {.r-fit-text}
-go to `www.menti.com` and give the code:
+go to `www.menti.com` and type the code:
 
 ``8412 8963``
 :::
 
 :::notes
 
+Questions in Mentimeter:
+
+- What do you associate with "Open Science"? _(word cloud)_
+- What do you practice? _(order several activities)_
+
+
 Additionally:    
 _have you used data from published studies?_    
 _if so, how did you go about acquiring those?_
+
+You know and actively pursue many of the Open Science actions. However, do you
+know how to share data correctly? We're going to focus on that today.
 
 :::
 
@@ -61,7 +70,7 @@ So you've created many tables and published them in supplementary material?
 Wonderful! Have you ever thought about how "open" this is?
 :::
 
-## Example
+## Example {.center}
 
 :::notes
 **Look at these files:**
